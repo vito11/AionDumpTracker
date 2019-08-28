@@ -2,7 +2,7 @@ const Web3 = require('aion-web3')
 const fs = require('fs');
 var net = require('net');
 
-const web3 = new Web3(new Web3.providers.HttpProvider("https://aion.api.nodesmith.io/v1/mainnet/jsonrpc?apiKey=d4125213cef743149d6e07720707f796"));
+const web3 = new Web3(new Web3.providers.HttpProvider("https://aion.api.nodesmith.io/v1/mainnet/jsonrpc?apiKey=YOU_API_KEY"));
 //const web3 = new Web3(new Web3.providers.IpcProvider("/home/ubuntu/.aion/jsonrpc.ipc",net));
 
 
