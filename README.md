@@ -16,15 +16,23 @@ nodesmith account
 4. Use your own web3 api key and run the scrpit
 
 ## Example
-Binance hot wallet address: 0xa0efb50bb6da136d1257e1a52411c9f3fd154b8d69ce7f381a28dc01c5aeef78
+Binance hot wallet address:
+```
+0xa0efb50bb6da136d1257e1a52411c9f3fd154b8d69ce7f381a28dc01c5aeef78
+```
 
-One of TRS VC address: 0xa0c6859f3cef43be042d33e319f3929780f76a3138db1df9e492febd97943ea4
+One of TRS VC address: 
+```
+0xa0c6859f3cef43be042d33e319f3929780f76a3138db1df9e492febd97943ea4
+```
 
 You can check the monthly release datail (click tap "transfer" you can see 1.08M) and recently dump info from:
 https://mainnet.aion.network/#/account/a0c6859f3cef43be042d33e319f3929780f76a3138db1df9e492febd97943ea4
 
 If you track its outgoing transactions via mainnet dashboard, you can easily find its binance deposit address:
+```
 0xa06b975ff919703b82c13597f3ff7fb27436641765c90c946566b199aece16b5
+```
 
 Unfortunately, aion mainnet dashboard can only show transaction within one month, and other VCs transaction path are much more complicated than this VC, so we need our script
 
@@ -35,7 +43,7 @@ node AionDumpTracker.js
 
 You will see the deposit path, and every dump story since mainnet.
 
-In this example, we can check that the deposit address printed by this script is as the same as our manually tracking result.
+In this example, we can check that the deposit address printed by this script is the same as our manually tracking result.
 
 ![image](https://github.com/vito11/AionDumpTracker/blob/master/example.PNG)
 
