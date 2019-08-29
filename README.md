@@ -11,7 +11,7 @@ nodesmith account
 ## How to try
 
 1. Get a web3 API key from https://console.nodesmith.io/#/dashboard
-2. nmp install aion-web3
+2. npm install aion-web3
 3. Download cached transactions file from https://www.dropbox.com/s/1vosgdemize105m/map-0-4002918?dl=0
 4. Use your own web3 api key and run the scrpit
 
